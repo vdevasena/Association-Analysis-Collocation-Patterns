@@ -1,1 +1,3 @@
 # Association-Analysis-Collocation-Patterns
+In our dataset file, Zinj.kml, there were three zones that consisted of different building types. For this report, we analysed the 3 different zones separately.
+Extraction of the relevant data was done with Python, and the rest of the analysis was done with a mixture of Python and/or R. For studying collocation of the same building type, the dataset need not be normalized. For the study of binary collocation between any pair of building types, we normalized the coordinates. The method Ripley's k-function approach is used for determining whether a point pattern deviates from complete spatial randomness (CSR) at a given distance.
